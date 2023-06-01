@@ -3,7 +3,7 @@ import { CallbackManager } from "langchain/callbacks"
 import { NextRequest, NextResponse } from "next/server"
 import formatMessages from "../../../helpers/langchainFormat"
 
-export const runtime = "edge"
+// export const runtime = "edge"
 export const preferredRegion = "auto"
 
 export async function POST(req: NextRequest) {
